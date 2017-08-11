@@ -1,0 +1,18 @@
+{
+  "globals": {
+    "H5P": true,
+    "H5PIntegration": true,
+    "H5PEditor": true
+  },
+  "env": {
+    "browser": true
+  },
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "rules": {
+    "valid-jsdoc": "off",
+    "semi": [2, "always"]
+  }
+}
